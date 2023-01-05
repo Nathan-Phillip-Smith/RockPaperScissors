@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #c1c1c1;
+}
+
+/* Header */
+
+header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: lighter;
+    font-size: 60px;
+    
+}
+
+/* Playfield */
+
+.playfield {
+    width: 100vw;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.rock1, .paper1, .scissors1, .rock2, .paper2, .scissors2, .count3, .count2, .count1 {
+    padding-top: 40px;
+}
+
+#player-rock, #player-paper, #player-scissors:hover {
+    cursor: pointer;
+
+}
+
+
+
+/* player */
+
+.player {
+    font-size: 60px;
+}
+
+#player-scissors {
+    transform: rotate(180deg);
+}
+
+
+/* vs */
+
+.vs-text {
+    font-size: 60px;
+}   
+
+
+/* computer */
+
+.computer {
+    font-size: 60px;
+}
+
+
+
+/* footer */
+
+footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2 {
+    font-weight: lighter;
+    font-size: 60px;
+    
+}
+
+.reset {
+    height: 20px;
+    width: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset:hover {
+    cursor: pointer;
+
+}
+
+/* Other */
+
+.gone {
+    display: none
+}
+
+.no-click {
+    pointer-events: none;
+}

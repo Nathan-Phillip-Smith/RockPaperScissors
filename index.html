@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/1d2de13b55.js" crossorigin="anonymous"></script>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <h1 class="title">ROCK PAPER SCISSORS</h1>
+            <h2>Score</h2>
+            <h2><span id="player-score"></span>/<span id="computer-score"></span></h2>
+        </header>
+        <!-- Main -->
+        <main>
+            <div class="playfield">
+                <div></div>
+                <div></div>
+                <!-- Player Section -->
+                <div class="player">
+                    <p class="text">Player</p>
+                    <div class="rock1">
+                        <i id="player-rock" class="fa-regular fa-hand-back-fist"></i>  
+                    </div>
+                    <div class="paper1">
+                        <i id="player-paper" class="fa-regular fa-hand"></i>
+                    </div>
+                    <div class="scissors1">
+                        <i id="player-scissors" class="fa-regular fa-hand-scissors"></i>
+                    </div>
+                </div>
+                <!-- VS Section -->
+                <div class="vs">
+                    <div class="vs-text">
+                        <i class="fa-solid fa-v"></i>
+                        <i class="fa-solid fa-s"></i>
+                    </div>
+                </div>
+                <!-- Computer Section -->
+                <div class="computer">
+                    <p class="text">Computer</p>
+                    <div class="rock2">
+                        <i id="computer-rock" class="fa-regular fa-hand-back-fist"></i> 
+                    </div>
+                    <div class="paper2">
+                        <i id="computer-paper" class="fa-regular fa-hand"></i>
+                    </div>
+                    <div class="scissors2">
+                        <i id="computer-scissors" class="fa-regular fa-hand-scissors"></i>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <h2 id="outcome">Make Your Choice</h2>
+            <div class="reset gone">RESET</div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
